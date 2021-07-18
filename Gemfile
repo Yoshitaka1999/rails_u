@@ -37,6 +37,7 @@ gem 'jquery-rails'
 gem 'bootstrap','~> 4.0.0'
 gem 'mini_racer'
 gem 'kaminari'
+gem 'rails-i18n'
 
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', '>= 1.1.0', require: false
@@ -54,6 +55,7 @@ group :development do
   gem 'spring'
   gem 'spring-watcher-listen', '~> 2.0.0'
   gem 'pry-byebug'
+  gem 'annotate'
 end
 
 group :test do
